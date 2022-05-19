@@ -3,7 +3,7 @@ import { Card } from "Utilities";
 
 const About = () => {
   return (
-    <section className="max-w-[1240px] md:py-32 px-4 py-8 mx-auto">
+    <section name="about" className="max-w-[1240px] md:py-32 px-4 py-8 mx-auto">
       <div className="text-center">
         <h2 className="text-3xl md:text-5xl font-bold">
           Trusted by Developers across the World

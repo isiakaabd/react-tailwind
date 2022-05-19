@@ -1,5 +1,13 @@
 import "./App.css";
-import { Navbar, Pricing, AllInOne, Hero, Support, About } from "components";
+import {
+  Navbar,
+  Footer,
+  Pricing,
+  AllInOne,
+  Hero,
+  Support,
+  About,
+} from "components";
 
 const App = () => {
   return (
@@ -10,6 +18,7 @@ const App = () => {
       <Support />
       <AllInOne />
       <Pricing />
+      <Footer />
     </>
   );
 };

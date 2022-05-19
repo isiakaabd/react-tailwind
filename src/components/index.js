@@ -4,3 +4,4 @@ export { default as About } from "./About";
 export { default as Support } from "./Support";
 export { default as AllInOne } from "./AllInOne";
 export { default as Pricing } from "./Pricing";
+export { default as Footer } from "./Footer";

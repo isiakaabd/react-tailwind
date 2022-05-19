@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [show, setShow] = useState(true);
@@ -11,29 +12,29 @@ const Navbar = () => {
         <h1 className="text-3xl font-bold sm:text-4xl">Brand</h1>
         <ul className="hidden md:flex justify-between">
           <li>
-            <a href="#" rel="no-referral">
+            <Link smooth={true} to="home" duration={500}>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" rel="no-referral">
+            <Link smooth={true} to="about" offset={-50} duration={500}>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" rel="no-referral">
+            <Link smooth={true} to="support" offset={-50} duration={500}>
               Support
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" rel="no-referral">
+            <Link smooth={true} to="platform" offset={-100} duration={500}>
               Platforms
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" rel="no-referral">
+            <Link smooth={true} to="pricing" offset={-50} duration={500}>
               Pricing
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="hidden gap-x-[20px] px-4 md:flex items-center justify-between">
@@ -53,31 +54,70 @@ const Navbar = () => {
             : "md:hidden absolute w-full px-8 bg-zinc-200 ease-in-out duration-500 "
         }
       >
-        <ul className=" flex flex-col items-center ">
-          <li className="border-b-2 w-full text-center border-zinc-300">
-            <a href="#" rel="no-referral">
+        <ul className="w-full flex flex-col items-center ">
+          <li
+            onClick={handleClick}
+            className="border-b-2 border-zinc-300 w-full"
+          >
+            <Link onClick={handleClick} smooth={true} to="home" duration={500}>
               Home
-            </a>
+            </Link>
           </li>
-          <li className="border-b-2 w-full text-center  border-zinc-300">
-            <a href="#" rel="no-referral">
+          <li
+            onClick={handleClick}
+            className="border-b-2 border-zinc-300 w-full"
+          >
+            <Link
+              smooth={true}
+              onClick={handleClick}
+              to="about"
+              offset={-50}
+              duration={500}
+            >
               About
-            </a>
+            </Link>
           </li>
-          <li className="border-b-2 w-full   text-center border-zinc-300">
-            <a href="#" rel="no-referral">
+          <li
+            onClick={handleClick}
+            className="border-b-2 border-zinc-300 w-full"
+          >
+            <Link
+              smooth={true}
+              onClick={handleClick}
+              to="support"
+              offset={-50}
+              duration={500}
+            >
               Support
-            </a>
+            </Link>
           </li>
-          <li className="border-b-2 w-full text-center border-zinc-300">
-            <a href="#" className="text-center" rel="no-referral">
+          <li
+            onClick={handleClick}
+            className="border-b-2 border-zinc-300 w-full"
+          >
+            <Link
+              smooth={true}
+              onClick={handleClick}
+              to="platform"
+              offset={-100}
+              duration={500}
+            >
               Platforms
-            </a>
+            </Link>
           </li>
-          <li className=" border-b-2 w-full text-center border-zinc-300 ">
-            <a href="#" rel="no-referral">
+          <li
+            onClick={handleClick}
+            className="border-b-2 border-zinc-300 w-full"
+          >
+            <Link
+              smooth={true}
+              onClick={handleClick}
+              to="pricing"
+              offset={-50}
+              duration={500}
+            >
               Pricing
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="flex flex-col my-4">
