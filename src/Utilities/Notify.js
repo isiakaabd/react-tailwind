@@ -3,7 +3,7 @@ import { CheckIcon } from "@heroicons/react/outline";
 
 const Notify = () => {
   return (
-    <main className="flex">
+    <main className="flex md:px-0 px-4">
       <div>
         <CheckIcon className="w-7 mr-4 text-green-600" />
       </div>

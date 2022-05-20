@@ -8,7 +8,7 @@ const Card = ({ title, subtitle }) => {
       className="flex-1 border py-8 rounded-xl shadow-xl text-center"
     >
       <p className="text-6xl font-bold text-indigo-600">{title}</p>
-      <p className="text-gray-400 mt-2">{subtitle}</p>
+      <p className="text-gray-400 mt-2 ">{subtitle}</p>
     </main>
   );
 };

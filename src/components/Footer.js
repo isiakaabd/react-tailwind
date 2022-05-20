@@ -10,24 +10,26 @@ import {
 const Footer = () => {
   return (
     <footer className="w-full py-4 mt-24 bg-slate-900 text-gray-300 px-2">
-      <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
+      <div className="container mx-auto md:p-0 px-4 grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8">
         <div>
           <h6 className="font-bold uppercase pt-2">Solutions</h6>
           <ul>
             <li className="py-1">
-              <a href="#">Marketing</a>
+              <a href="https://dev.to/isiakaabd" tar>
+                Marketing
+              </a>
             </li>
             <li className="py-1">
-              <a href="#">Analytics</a>
+              <a href="https://dev.to/isiakaabd">Analytics</a>
             </li>
             <li className="py-1">
-              <a href="#">Commerce</a>
+              <a href="https://dev.to/isiakaabd">Commerce</a>
             </li>
             <li className="py-1">
-              <a href="#">Data</a>
+              <a href="https://dev.to/isiakaabd">Data</a>
             </li>
             <li className="py-1">
-              <a href="#">Cloud</a>
+              <a href="https://dev.to/isiakaabd">Cloud</a>
             </li>
           </ul>
         </div>
@@ -35,16 +37,16 @@ const Footer = () => {
           <h6 className="font-bold uppercase pt-2">Support</h6>
           <ul>
             <li className="py-1">
-              <a href="#">Pricing</a>
+              <a href="https://dev.to/isiakaabd">Pricing</a>
             </li>
             <li className="py-1">
-              <a href="#">Documentation</a>
+              <a href="https://dev.to/isiakaabd">Documentation</a>
             </li>
             <li className="py-1">
-              <a href="#">Guides</a>
+              <a href="https://dev.to/isiakaabd">Guides</a>
             </li>
             <li className="py-1">
-              <a href="#">API Status</a>
+              <a href="https://dev.to/isiakaabd">API Status</a>
             </li>
           </ul>
         </div>
@@ -52,19 +54,19 @@ const Footer = () => {
           <h6 className="font-bold uppercase pt-2">Company</h6>
           <ul>
             <li className="py-1">
-              <a href="#">About</a>
+              <a href="https://dev.to/isiakaabd">About</a>
             </li>
             <li className="py-1">
-              <a href="#">Blog</a>
+              <a href="https://dev.to/isiakaabd">Blog</a>
             </li>
             <li className="py-1">
-              <a href="#">Jobs</a>
+              <a href="https://dev.to/isiakaabd">Jobs</a>
             </li>
             <li className="py-1">
-              <a href="#">Press</a>
+              <a href="https://dev.to/isiakaabd">Press</a>
             </li>
             <li className="py-1">
-              <a href="#">Partners</a>
+              <a href="https://dev.to/isiakaabd">Partners</a>
             </li>
           </ul>
         </div>
@@ -72,19 +74,19 @@ const Footer = () => {
           <h6 className="font-bold uppercase pt-2">Legal</h6>
           <ul>
             <li className="py-1">
-              <a href="#">Claims</a>
+              <a href="https://dev.to/isiakaabd">Claims</a>
             </li>
             <li className="py-1">
-              <a href="#">Privacy</a>
+              <a href="https://dev.to/isiakaabd">Privacy</a>
             </li>
             <li className="py-1">
-              <a href="#">Terms</a>
+              <a href="https://dev.to/isiakaabd">Terms</a>
             </li>
             <li className="py-1">
-              <a href="#">Data</a>
+              <a href="https://dev.to/isiakaabd">Data</a>
             </li>
             <li className="py-1">
-              <a href="#">Cloud</a>
+              <a href="https://dev.to/isiakaabd">Cloud</a>
             </li>
           </ul>
         </div>

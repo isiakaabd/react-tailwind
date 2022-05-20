@@ -1,6 +1,4 @@
 import React from "react";
-import { PhoneIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
-import { ChipIcon, SupportIcon } from "@heroicons/react/solid";
 
 const Crumb = ({ icon, head, subText, secondIcon }) => {
   //   console.log(icon);
